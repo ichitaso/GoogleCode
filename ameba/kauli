@@ -1,0 +1,14 @@
+var url=location.href;
+//記事ページ
+if (url.match(/^.+\/entry[\-0-9]*\.html$/g )) {
+var kauli_yad_count = typeof(kauli_yad_count) == 'undefined' ? 1 : kauli_yad_count + 1;(function(d){ d.write('<span id="kauli_yad_' + kauli_yad_count + '" style="width:336px; height:280px; display:inline-block"><' + '!--44849--' + '><' + '/span>'); var s = d.createElement('script'); var h = d.getElementsByTagName('head')[0]; s.defer = 'defer'; s.async = 'async'; s.src = 'http://js.kau.li/yad.js'; h.insertBefore(s, h.firstChild);})(document);
+$(function(){
+$("#kauli_yad_1").insertBefore(".skinArticleFooter");
+});
+}
+//コメントをクリックして入る記事ページ
+else if (url.match(/^.+\/entry[\-0-9]*\.html\#cbox$/g )) {
+var kauli_yad_count = typeof(kauli_yad_count) == 'undefined' ? 1 : kauli_yad_count + 1;(function(d){ d.write('<span id="kauli_yad_' + kauli_yad_count + '" style="width:336px; height:280px; display:inline-block"><' + '!--44849--' + '><' + '/span>'); var s = d.createElement('script'); var h = d.getElementsByTagName('head')[0]; s.defer = 'defer'; s.async = 'async'; s.src = 'http://js.kau.li/yad.js'; h.insertBefore(s, h.firstChild);})(document);
+$(function(){
+$("#kauli_yad_1").insertBefore(".skinArticleFooter");
+});

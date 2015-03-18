@@ -1,0 +1,8 @@
+var border_px = 15; // 画像枠の幅(px)
+var border_color = "#000" // 画像枠の色(色コード)
+var fade_in_time = "2000"; // 表示時間 (ミリ秒)
+var fade_out_time = "20"; // 消去時間 (ミリ秒)
+var close_img='http://stat.ameba.jp/user_images/20110626/07/ichitaso/0c/2a/p/o0096003311313099808.png';// Close画像
+var back_color = "#000000"; // 全体背景色(色コード)
+var back_parent = 0.1; // 全体背景透過度(0～1.0)
+var ani_sw = "ON"; // アニメーション (ON 又は OFF)
